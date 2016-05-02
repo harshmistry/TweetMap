@@ -245,10 +245,10 @@ public class UpdateTweets implements Runnable {
 		
 		cb = new ConfigurationBuilder();
 		cb.setDebugEnabled(true)
-		.setOAuthConsumerKey("oaDxyWPbtMR4onc5DrLXe63xA")
-		.setOAuthConsumerSecret("ANtXjlaKko0H5rzhunUpa5lPJZZ1u63ziXmc50hsMv4tBdqIJ1")
-		.setOAuthAccessToken("2771061159-ovHIYssc2kMJ4ntTCi1MtcuciaNG3MgLi2RBGyI")
-		.setOAuthAccessTokenSecret("dsyjMTOH89M4QYsUJlfHnoUaWeFfYeLnmJWRFquMwSCZ2");
+		.setOAuthConsumerKey("")
+		.setOAuthConsumerSecret("")
+		.setOAuthAccessToken("")
+		.setOAuthAccessTokenSecret("");
 		
 	}
 
