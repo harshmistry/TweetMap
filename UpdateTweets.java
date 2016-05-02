@@ -41,7 +41,7 @@ import com.amazonaws.services.dynamodbv2.util.Tables;
 public class UpdateTweets implements Runnable {
 
 	//static AWSCredentials credentials = null;
-	static BasicAWSCredentials credentials = new BasicAWSCredentials("AKIAIX3ROOTJSNMUPZQA", "TtY1/u3o5QInvvQHBS8ESMWAof/RdTguGmq8tSPw");
+	static BasicAWSCredentials credentials = new BasicAWSCredentials(ACCESS_KEY, ACCESS_SECRET_KEY);
 	private static final String KEY_UUID="uuid";
 	private static final String KEY_KEYWORD="keyword";
 	private static final String KEY_LATITUDE="latitude";
